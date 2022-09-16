@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https: //fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap " rel=" stylesheet ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <!-- SEO -->
   <title>Portafolio-CV David Molina</title>
@@ -43,9 +44,7 @@
       <nav class="menu">
         <a href="#inicio">Inicio</a>
         <a href="#acerca">Acerca</a>
-        <a href="#servicios">Servicios</a>
         <a href="#Portafolio">Portafolio</a>
-        <a href="#testimonios">Testimonios</a>
         <a href="#contacto">Contacto</a>
       </nav>
 
@@ -55,44 +54,67 @@
   <section id="inicio" class="home full-lg-screen">
     <article class="hero-image" style="--hero-image: url('assets/hero-image.jpg'); --hero-attachment: fixed;">
       <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
-        <div class="hero-image-content">
-          <h2 class="hero-image-tittle" style="--hero-text-color: var(--white-color);">
-            Bienvenido <br>a mi Sitio
-          </h2>
+        <div>
+          <h2><span class="hero-image-tittle typed" style="--hero-text-color: var(--white-color);"></span></h2>
           <a href="#contacto" class="btn">CONTACTAME</a>
+        </div>
+        <div id="cadenas-textos">
+          <p> Bienvenidos <br>a mi casa,</p>
+          <p>Bienvenidos <br>a mi mundo,</p>
+          <p>Bienvenidos <br>a mi estilo,</p>
+          <p>Bienvenidos <br>a mi web.</p>
         </div>
       </aside>
     </article>
   </section>
   <section id="acerca" class="about section full-lg-screen">
     <article class="bio">
-      <aside class="section">
+      <aside class="section" style="width:80%;">
         <aside class="text-center">
           <h1>David Molina</h1>
           <h5>Administrador y Programador Web</h5>
         </aside>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, labore aspernatur. Illo doloribus rerum
-          praesentium excepturi ratione assumenda fugiat consectetur, alias, pariatur earum maxime magnam expedita
-          commodi iste dolor incidunt.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, commodi. Excepturi rem ipsa doloremque enim
-          corporis dolorum pariatur, maxime natus quaerat, sed, velit atque officia deserunt. Accusamus ut nam cumque?
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate laboriosam ea quidem mollitia qui facere
-          dolore deleniti. Natus placeat recusandae maxime totam rem sequi! Harum obcaecati vero quidem voluptatem
-          vitae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus voluptates asperiores minima maiores
-          labore autem quaerat consequatur? Qui numquam laboriosam, vel, eum officia adipisci cum, voluptas aliquid
-          sapiente aperiam provident?</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nesciunt accusamus magni consequuntur
-          dolore nam quos reiciendis cum labore doloribus, natus esse deleniti vero dolorem! Similique velit eius quia
-          soluta.</p>
+        <div class="acerca-david text-center">
+          <p>Hola, soy David..., Licenciado en Administración, Programador web y creador de contenido para YouTube.
+            <br>
+            Quiero contarte que como Administrador, tuve una preparación estudiantil por 5 años en la universidad de mi
+            paìs Venezuela y
+            trabaje 2 años para oficinas del gobierno municipal en mi localidad, sin embargo, no me gustaba mi trabajo,
+            y es que, a pesar de ser un trabajo bastante cómodo, me parecía muy aburrido, la verdad también me sentía
+            muy atraído hacia el mundo la
+            Tecnología.
+            <br>
+            Asì que con muchas ganas de aprender, divertirnos y hacer lo que nos gusta; mi esposa y yo comenzamos un
+            canal
+            de YouTube (<i>por aca el <a href="https://www.youtube.com/channel/UCbGmj4ES8ffJ2T886UqIymA">link</a></i>),
+            con este primer "proyecto", tuve
+            mi primer contacto con todo el mundo del la web y me ENCANTO...!!, todo lo relacionado a Blogs, E-commerce,
+            plataformas de Streaming, SEO, etc..., fue entonces que decidì dar los primeros pasos en el Diseño y
+            Desarrollo WEB
+
+          </p>
+          <p>Desde finales de 2021 me he dedicado a recorrer el camino hacia convertirme en un Desarrolador Web
+            Front-end,
+            comenzando con los cursos bàsicos HTML, CSS y JAVASCRIPT, ademàs tambièn realice un curso de FIGMA para
+            diseñar mis propios prototipos antes de <i>"Codear"</i>; Utilizando estas tecnologìas de la web pude
+            construir paginas web muy bonitas a la vista del usuario, adaptables a distintos dispositivos aplicando la
+            tècnica del
+            Responsive Design y con interacciones, pues les puese transiciones y animaciones dàndole un estilo muy
+            moderno
+            a mis primeras paginas.
+          </p>
+          <p>Seguidamente aprendì a utilizar la librerìa React.Js con la cual pude desarrollar Apps y paginas web un
+            poquito mas complejas, conectandome a APIs para mostrar informarciòn solicitada por el usuario, Mira mi <a
+              href="#Portafolio"><i>Portafolio</i></a></p>
+
+        </div>
         <div class="text-center">
           <a class="btn margin-bottom" href="https://www.linkedin.com/in/david-molina159/" target="_blank"
             rel="noopener">DESCARGA MI CV</a>
         </div>
       </aside>
-      <aside>
-        <img class="grey-scale" src="/assets/david-profile.jpg" alt="profile-picture">
+      <aside class="text-center">
+        <img class="grey-scale" style="max-width:400px ;" src="./assets/david-skills.jpeg" alt="profile-picture">
       </aside>
     </article>
     <article class="skills">
@@ -108,157 +130,129 @@
         <div class="progress">
           <p>
             <b>DESARROLLO WEB - HTML & CSS</b>
-            <b>70%</b>
+            <b>90%</b>
           </p>
-          <progress value="70" min="0" max="100"></Progress>
+          <progress value="90" min="0" max="100"></Progress>
         </div>
       </aside>
       <aside>
         <div class="progress">
           <p>
-            <b>PROGRAMACION WEB - JAVASCRIPT</b>
-            <b>60%</b>
+            <b>PROGRAMACION WEB - JAVASCRIPT y REACT</b>
+            <b>75%</b>
           </p>
-          <progress value="60" min="0" max="100"></progress>
+          <progress value="75" min="0" max="100"></progress>
         </div>
         <div class="progress">
           <p>
             <b>CONTROL DE VERSIONES - GIT & GITHUB</b>
-            <b>50%</b>
+            <b>70%</b>
           </p>
-          <progress value="50" min="0" max="100"></progress>
+          <progress value="70" min="0" max="100"></progress>
         </div>
       </aside>
     </article>
-  </section>
-  <section id="servicios" class="services section bg-grey-light">
-    <div class="container full-lg-screen">
-      <h2 class="section-tittle">¿Que te Ofrezco?</h2>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-        </svg>
-        <h3>Diseño Web</h3>
-        <p>Diseño sitios y aplicaciones para plataformas web. Te ayudo a construir y llevar a cabo tu Proyecto desde el
-          Boceteo hasta el maquetado</p>
-      </article>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z" />
-          <path
-            d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z" />
-        </svg>
-        <h3>Programacion Web</h3>
-        <p>Aplico interacciones logicas a sitios y aplicaciones web, utilizando el lenguaje de programcion web pro
-          excelencia JavaScript</p>
-      </article>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
-          <path
-            d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z" />
-        </svg>
-        <h3>SEO</h3>
-        <p>Aplico estrategias de SEO para posicionar tu sitio web en los primeros lugares de busqueda, para que asi tus
-          clientes pueden encontrarte, utilzando palabras claves</p>
-      </article>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-        </svg>
-        <h3>Diseño Web</h3>
-        <p>Diseño sitios y aplicaciones para plataformas web. Te ayudo a construir y llevar a cabo tu Proyecto desde el
-          Boceteo hasta el maquetado</p>
-      </article>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z" />
-          <path
-            d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z" />
-        </svg>
-        <h3>Programacion Web</h3>
-        <p>Aplico interacciones logicas a sitios y aplicaciones web, utilizando el lenguaje de programcion web pro
-          excelencia JavaScript</p>
-      </article>
-      <article class="service-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
-          <path
-            d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z" />
-        </svg>
-        <h3>SEO</h3>
-        <p>Aplico estrategias de SEO para posicionar tu sitio web en los primeros lugares de busqueda, para que asi tus
-          clientes pueden encontrarte, utilzando palabras claves</p>
-      </article>
-
-    </div>
   </section>
   <section id="Portafolio" class="portfolio section full-lg-screen">
     <div class="container">
       <h2 class="section-tittle">Mis Trabajos</h2>
       <a class="portfolio-card" href="#trabajo-1">
-        <img src="/assets/portfolio-1.jpg" alt="Pagina tributo a colplay">
+        <img src="./assets/app-movie.png" alt="Pagina bucador de peliculas">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>App Buscador de Peliculas</h3>
+            <p>Este proyecto fue realizado como practica del curso ReactJs, consiste en hacer una peticon de datos a una
+              API de Peliculas, y con esos datos dibujar en DOM una serie de tarjetas con la informacion de cada
+              pelicula. </p>
           </div>
         </aside>
       </a>
       <a class="portfolio-card" href="#trabajo-2">
-        <img src="/assets/portfolio-2.jpg" alt="formulario satisfaccion clientes del cine">
+        <img src="/assets/app-clima.jpg" alt="app de clima">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>App Pronostico del Clima</h3>
+            <p>Esta App muestra la temperatura actual (en grados Celccius) de cada ciudad del mundo, ademas tambien
+              muestra el pronostico del tiempo de los siguientes 30 dias</p>
           </div>
         </aside>
       </a>
       <a class="portfolio-card" href="#trabajo-3">
-        <img src="/assets/portfolio-3.jpg" alt="Diseño ux/ui portafolio david">
+        <img src="./assets/calculadora.png" alt="calculadora">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>Calculadora</h3>
+            <p>Esta calculadora de bonito diseño, puede resolver las 4 operaciones matematicas basicas sumar, restar,
+              multiplicar y
+              dividir, tambien puede resolver operaciones con numeros fraccionados.</p>
           </div>
         </aside>
       </a>
       <a class="portfolio-card" href="#trabajo-4">
-        <img src="/assets/celular.jpg" alt="Pagina tributo a colplay">
+        <img src="/assets/carrito-compras.jpg" alt="Carro de compras">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>Carro de Compras</h3>
+            <p>Esta App es una tienda de verduras, y dadas las disponibilidades puedes selccionar y agregar a tu carro
+              de compra, y una
+              vez en tu carro, tambien podrias eliminar este producto</p>
           </div>
         </aside>
       </a>
       <a class="portfolio-card" href="#trabajo-5">
-        <img src="/assets/portfolio-5.jpg" alt="formulario satisfaccion clientes del cine">
+        <img src="/assets/Gestor-de-tareas.jpg" alt="Gestor de tareas">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>Gestor de Tareas</h3>
+            <p>Esta App te permite escribir una lista, ya se de actividades o compras, y llevar un registro, este
+              registro puede ser tachado y eliminado; este Gestor de tareas lo hice usando ReactJs</p>
           </div>
         </aside>
       </a>
       <a class="portfolio-card" href="#trabajo-6">
-        <img src="/assets/portfolio-6.jpg" alt="Diseño ux/ui portafolio david">
+        <img src="/assets/crud-app.jpg" alt="crud-app">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sapiente dignissimos iure sequi aut fuga
-              odit eius hic fugit! Ducimus sed assumenda saepe quidem nesciunt sit nisi eligendi, voluptatem atque.</p>
+            <h3>Crud App</h3>
+            <p>Esta App nos permite manipular de varias formas elementos de la tabla, podemos crear nuevos elementos,
+              eliminarlos y
+              actulizarlos.</p>
+          </div>
+        </aside>
+      </a>
+      <a class="portfolio-card" href="#trabajo-7">
+        <img src="/assets/landing-page.jpg" alt="Diseño ux/ui landing page david">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3>LandingPage-BATIPLUS</h3>
+            <p>Esta landing Page muestra un producto, hace un recorrdio a traves sus ingredientes, como usarlo, retos,
+              quienes usan el
+              producto, testimonios de exito, respondiendo el ¿porque
+              y para que, lo necesitas?; Todo con el fin de convencer al usuario y finalizar un venta</p>
+          </div>
+        </aside>
+      </a>
+      <a class="portfolio-card" href="#trabajo-8">
+        <img src="/assets/ficha-tecnica.jpg" alt="ficha de documentacion tecnica">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3>ficha-tecnica Conmebol</h3>
+            <p>Esta pagina Web nos muestra informacion estatica de la Conmebol una organizacion de futbol, sus
+              diferentes federaciones,
+              sus mejores jugadores y estdios. Para construir esta pagina utilice solo HTML y CSS y utilice la Tecnica
+              del Responsive
+              Design</p>
+          </div>
+        </aside>
+      </a>
+      <a class="portfolio-card" href="#trabajo-9">
+        <img src="/assets/events.png" alt="Pagina de eventos">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3>Pagina de Eventos</h3>
+            <p>Esta pagina muestra eventos publicos, eventos pasados y futuros, tambien filtra los eventos por
+              categorias
+              y por busquedas. Para desarrollar esta pagina wen utilice las tecnologias de HTML, CSS y JAVASCRIPT</p>
           </div>
         </aside>
       </a>
@@ -273,22 +267,21 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="/assets/portfolio-1.jpg" alt="pagina tributo a Coldplay">
+        <img src="/assets/app-movie.png" alt="App de peliculas">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>App Buscador de Peliculas</h3>
+          <p>Este proyecto fue realizado como practica del curso ReactJs, consiste en hacer una peticon de datos a una
+            API de Peliculas, y con esos datos dibujar en DOM una serie de tarjetas con la informacion de cada
+            pelicula, tambien se pueden hacer busquedas de peliculas especificas, mostrar informacion detallada y se
+            utilizo la tecnica del scroll infinito</p>
           <aside class="portfolio-details">
-            <small><b>CLIENTE</b></small>
-            <small>Nombre del cliente</small>
             <small><b>FECHA</b></small>
-            <small>29/9/2021</small>
+            <small>1/9/2022</small>
             <small><b>TIPO</b></small>
-            <small>tipo de proyecto</small>
+            <small>Practico</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://astounding-licorice-250f80.netlify.app" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
@@ -302,22 +295,21 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="/assets/portfolio-2.jpg" alt="formulario">
+        <img src="./assets/app-clima.jpg" alt="App pronostico del Clima">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>App Pronostico del Clima</h3>
+          <p>Esta App muestra la temperatura actual (en grados Celccius) de cada ciudad del mundo, ademas tambien
+            muestra el pronostico del tiempo de los siguientes 30 dias, esta App fue desarrollada con ReactJs, y
+            solicite los datos a una API, es
+            completamente Responsive</p>
           <aside class="portfolio-details">
-            <small><b>CLIENTE</b></small>
-            <small>Nombre del cliente</small>
             <small><b>FECHA</b></small>
-            <small>29/9/2021</small>
+            <small>5/9/2022</small>
             <small><b>TIPO</b></small>
-            <small>tipo de proyecto</small>
+            <small>Practico</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://magnificent-peony-febc7c.netlify.app/" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
@@ -331,12 +323,14 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="/assets/portfolio-3.jpg" alt="diseño estatico en figma">
+        <img src="./assets/calculadora.png" alt="calculadora">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>Calculadora</h3>
+          <p>Esta calculadora de bonito diseño, puede resolver las 4 operaciones matematicas basicas sumar, restar,
+            multiplicar y
+            dividir, tambien puede resolver operaciones con numeros fraccionados; para construirla use ReactJs y lo
+            interesante fue que en este proyecto utilice un modulo de npm llamado mathjs que me sirvio para revolver las
+            operaciones solicitadas</p>
           <aside class="portfolio-details">
             <small><b>CLIENTE</b></small>
             <small>Nombre del cliente</small>
@@ -345,8 +339,8 @@
             <small><b>TIPO</b></small>
             <small>tipo de proyecto</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://sprightly-frangollo-559be5.netlify.app" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
@@ -360,22 +354,21 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="/assets/celular.jpg" alt="celular">
+        <img src="./assets/carrito-compras.jpg" alt="celular">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>Carro de Compra</h3>
+          <p>Esta App es una tienda de verduras, y dadas las disponibilidades puedes selccionar y agregar a tu carro de
+            compra, y una vez en tu carro, tambien podrias eliminar este producto; Esta App fue hecha con Reactjs usando
+            los class Component.
+            carro de compra un producto </p>
           <aside class="portfolio-details">
-            <small><b>CLIENTE</b></small>
-            <small>Nombre del cliente</small>
             <small><b>FECHA</b></small>
-            <small>29/9/2021</small>
+            <small>7/8/2022</small>
             <small><b>TIPO</b></small>
-            <small>tipo de proyecto</small>
+            <small>Practico</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://candid-torrone-b4f878.netlify.app/" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
@@ -389,22 +382,20 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="/assets/portfolio-5.jpg" alt="trabajo 5">
+        <img src="./assets/Gestor-de-tareas.jpg" alt="trabajo 5">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>Gestor de Tareas</h3>
+          <p>Esta App te permite escribir una lista, ya se de actividades o compras, y llevar un registro, este registro
+            puede ser
+            tachado y eliminado; este Gestor de tareas lo hice usando ReactJs</p>
           <aside class="portfolio-details">
-            <small><b>CLIENTE</b></small>
-            <small>Nombre del cliente</small>
             <small><b>FECHA</b></small>
-            <small>29/9/2021</small>
+            <small>5/9/2022</small>
             <small><b>TIPO</b></small>
-            <small>tipo de proyecto</small>
+            <small>Practico</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://fabulous-axolotl-cdab8a.netlify.app/" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
@@ -418,12 +409,69 @@
             d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
         </svg></a>
       <article class="portfolio-modal">
-        <img src="assets/portfolio-6.jpg" alt="trabajo 6">
+        <img src="./assets/crud-app.jpg" alt="trabajo 6">
         <div class="portfolio-info">
-          <h3>Nombre del Proyecto 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis molestias ullam asperiores
-            quisquam dolor repellendus assumenda ex quae! Nesciunt qui atque veniam fugit nisi dignissimos corrupti at
-            et est.</p>
+          <h3>Crud App</h3>
+          <p>Esta App nos permite manipular de varias formas elementos de la tabla, podemos crear nuevos elementos,
+            eliminarlos y actulizarlos. En este ejercicio practico hecho en Reactjs tambien pude crear eliminar y
+            actualizar elementos como si se tratara de una API Verdadera, pues simule una API con Json Serve </p>
+          <aside class="portfolio-details">
+            <small><b>FECHA</b></small>
+            <small>3/8/2021</small>
+            <small><b>TIPO</b></small>
+            <small>Practico</small>
+            <small><b>ENLACE</b></small>
+            <small><a href="https://playful-cuchufli-f47764.netlify.app" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
+          </aside>
+        </div>
+      </article>
+    </div>
+  </article>
+  <article class="modal" id="trabajo-7">
+    <div class="modal-content">
+      <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+        </svg></a>
+      <article class="portfolio-modal">
+        <img src="./assets/landing-page.jpg" alt="trabajo 6">
+        <div class="portfolio-info">
+          <h3>LandingPage-BATIPLUS</h3>
+          <p>Esta landing Page muestra un producto, hace un recorrdio a traves sus ingredientes, como usarlo, retos,
+            quienes usan el producto, testimonios de exito, respondiendo el ¿porque
+            y para que, lo necesitas?; Todo con el fin de convencer al usuario y finalizar un venta; Esta pagina web fue
+            primero diseñada en Figma, construie un prototipo para movil, tablet y desktop, a partir de alli, pude
+            traducir a codigo HTML, CSS y JAVASCRIPT esta landing-page
+          </p>
+          <aside class="portfolio-details">
+            <small><b>FECHA</b></small>
+            <small>15/5/2022</small>
+            <small><b>TIPO</b></small>
+            <small>tipo de proyecto</small>
+            <small><b>ENLACE</b></small>
+            <small><a href="https://davidmolina258.github.io/landing-page-Batiplus/diet-page/" target="_blank"
+                rel="noopener">Ver Proyecto</a></small>
+          </aside>
+        </div>
+      </article>
+    </div>
+  </article>
+  <article class="modal" id="trabajo-8">
+    <div class="modal-content">
+      <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+        </svg></a>
+      <article class="portfolio-modal">
+        <img src="./assets/conmebol-2.jpg" alt="trabajo 6">
+        <div class="portfolio-info">
+          <h3>Ficha-Tecnica Conmebol</h3>
+          <p>Esta pagina Web nos muestra informacion estatica de la Conmebol una organizacion de futbol, sus diferentes
+            federaciones, sus mejores jugadores y estdios. Para construir esta pagina utilice solo HTML y CSS y utilice
+            la Tecnica del Responsive Design</p>
           <aside class="portfolio-details">
             <small><b>CLIENTE</b></small>
             <small>Nombre del cliente</small>
@@ -432,73 +480,42 @@
             <small><b>TIPO</b></small>
             <small>tipo de proyecto</small>
             <small><b>ENLACE</b></small>
-            <small><a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
-                rel="noopener"></a></small>
+            <small><a href="https://davidmolina258.github.io/Ficha-Tecnica-Conmebol/" target="_blank" rel="noopener">Ver
+                Proyecto</a></small>
           </aside>
         </div>
       </article>
     </div>
   </article>
-  <!-- cierre Ventanas Modal-->
+  <article class="modal" id="trabajo-9">
+    <div class="modal-content">
+      <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+        </svg></a>
+      <article class="portfolio-modal">
+        <img src="./assets/events.png" alt="trabajo 6">
+        <div class="portfolio-info">
+          <h3>Pagina de Eventos</h3>
+          <p>Esta pagina muestra eventos publicos, eventos pasados y futuros, tambien filtra los eventos por categorias
+            y por busquedas. Para desarrollar esta pagina wen utilice las tecnologias de HTML, CSS y JAVASCRIPT</p>
+          <aside class="portfolio-details">
 
-  <section id="testimonios" class="testimonials">
-    <article class="hero-image"
-      style="--hero-image: url('assets/hero-image-customers.jpg'); --hero-attachment: scroll;">
-      <aside class="hero-image-opacity" style="--hero-opacity-color: var(--white-alpha-color);">
-        <div class="hero-image-content">
-          <div class="container">
-            <h2 class="section-tittle">Mis Clientes Dicen</h2>
-            <article class="carousel" style="--carousel-bg-color:var(--white-alpha-color)">
-              <input type="radio" name="slides" id="slide-1" checked>
-              <input type="radio" name="slides" id="slide-2" checked>
-              <input type="radio" name="slides" id="slide-3" checked>
-              <input type="radio" name="slides" id="slide-4" checked>
-              <ul class="slides">
-                <li class="slide">
-                  <img class="avatar" src="/assets/customer-1.jpg" alt="cliente 1">
-                  <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus repudiandae porro
-                    accusantium consectetur asperiores molestias? Ea, rerum, praesentium aperiam ratione inventore in
-                    minima quod aut animi itaque nulla odit voluptatum.</blockquote>
-                  <h3 class="text-first-color">Nombre del Cliente</h3>
-                  <h6>Puseo del Cliente</h6>
-                </li>
-                <li class="slide">
-                  <img class="avatar" src="/assets/customer-2.jpg" alt="cliente 2">
-                  <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus repudiandae porro
-                    accusantium consectetur asperiores molestias? Ea, rerum, praesentium aperiam ratione inventore in
-                    minima quod aut animi itaque nulla odit voluptatum.</blockquote>
-                  <h3 class="text-first-color">Nombre del Cliente</h3>
-                  <h6>Puseo del Cliente</h6>
-                </li>
-                <li class="slide">
-                  <img class="avatar" src="/assets/customer-1.jpg" alt="cliente 1">
-                  <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus repudiandae porro
-                    accusantium consectetur asperiores molestias? Ea, rerum, praesentium aperiam ratione inventore in
-                    minima quod aut animi itaque nulla odit voluptatum.</blockquote>
-                  <h3 class="text-first-color">Nombre del Cliente</h3>
-                  <h6>Puseo del Cliente</h6>
-                </li>
-                <li class="slide">
-                  <img class="avatar" src="/assets/customer-2.jpg" alt="cliente 2">
-                  <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus repudiandae porro
-                    accusantium consectetur asperiores molestias? Ea, rerum, praesentium aperiam ratione inventore in
-                    minima quod aut animi itaque nulla odit voluptatum.</blockquote>
-                  <h3 class="text-first-color">Nombre del Cliente</h3>
-                  <h6>Puseo del Cliente</h6>
-                </li>
-              </ul>
-              <aside class="slide-nav">
-                <label for="slide-1" id="dot-1"></label>
-                <label for="slide-2" id="dot-2"></label>
-                <label for="slide-3" id="dot-3"></label>
-                <label for="slide-4" id="dot-4"></label>
-              </aside>
-            </article>
-          </div>
+            <small><b>FECHA</b></small>
+            <small>12/8/2021</small>
+            <small><b>TIPO</b></small>
+            <small>Practico</small>
+            <small><b>ENLACE</b></small>
+            <small><a href="https://davidmolina258.github.io/proyecto_MindHub/" target="_blank" rel="noopener">ver
+                Proyecto</a></small>
+          </aside>
         </div>
-      </aside>
-    </article>
-  </section>
+      </article>
+    </div>
+  </article>
+
+  <!-- cierre Ventanas Modal-->
   <section id="contacto" class="contact">
     <div class="container">
       <h2 class="section-tittle">¿Interesado?</h2>
@@ -520,7 +537,7 @@
               fill="#CEFF09" />
           </svg>
           <h5>TELEFONO</h5>
-          <small><a href="tel:(+54) 11 6592 5325">(+54) 11 6592 5325</a></small>
+          <small><a href="tel:(+54) 11 6592 5325">+54 9 11 5761 4747 </a></small>
         </aside>
         <aside class="contact-car box-shadow-1">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -606,6 +623,7 @@
     <small>SITIO DISEÑADO POR <a href="https://www.facebook.com/profile.php?id=100013344286131" target="_blank"
         rel="noopener">@DAVIDMOLINA258</a></small>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="script.js"></script>
 </body>
 
